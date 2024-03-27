@@ -1,0 +1,57 @@
+html
+{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+canvas
+{
+    background: white;
+    width: 300px;
+    height: 300px;
+}
+
+body
+{
+    background: lightblue;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-holder
+{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#input
+{
+    margin: 20px 0px 10px 0px;
+}
+
+#learn-button
+{
+    margin: 0px 0px 10px 0px;
+}
+
+#learn-button:hover
+{
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+}
+
+#output
+{
+    margin: 10px 0px;
+    background: rgb(235, 38, 38);
+    line-height: 30px;
+    width: 100vw;
+}
